@@ -1,8 +1,11 @@
 .header {
   height: 105px;
   background-color: #151e25;
+  &__wrap {
+    width: 1340px;
+    margin: 0 auto;
+  }
   &__article {
-    margin-left: 328px;
     width: 380px;
     height: 105px;
     background-color: #0c53c5;
@@ -13,6 +16,7 @@
     justify-content: space-between;
     & h1 {
       color: white;
+      font-weight: 300;
       font-size: 50px;
       font-family: "Bebas Neue", cursive;
       letter-spacing: 5px;
@@ -20,9 +24,32 @@
     }
     & h2 {
       color: white;
+      font-weight: 300;
       font-size: 20px;
       font-family: "Segoe UI", sans-serif;
       text-transform: uppercase;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    &__wrap {
+      margin: 0 20px;
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    &__article {
+      width: 100%;
+      text-align: center;
+    }
+    &__wrap {
+      margin: 0 auto;
+      width: 100%;
     }
   }
 }

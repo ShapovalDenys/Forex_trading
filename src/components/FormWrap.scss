@@ -3,8 +3,9 @@
   background-image: url(./header.png);
   background-repeat: no-repeat;
   &__wrap {
+    max-width: 1340px;
+    margin: 0 auto;
     height: 100%;
-    padding: 0 328px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +14,7 @@
     & h2 {
       font-size: 70px;
       color: white;
-      font-weight: 400;
+      font-weight: 300;
       font-family: "Bebas Neue", cursive;
       text-transform: uppercase;
     }
@@ -21,6 +22,7 @@
       margin-top: 80px;
       font-size: 130px;
       color: white;
+      font-weight: 300;
       font-family: "Bebas Neue", cursive;
       text-transform: uppercase;
     }
@@ -81,6 +83,7 @@
     height: 105px;
   }
   &__button {
+    cursor: pointer;
     margin-top: 28px;
     background-color: #0c53a5;
     width: 100%;
@@ -93,6 +96,64 @@
     &:hover {
       background-color: white;
       color: #0c53a5;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .form-section {
+    &__wrap {
+      margin: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .form-section {
+    &__wrap {
+      flex-direction: column;
+    }
+    &__description {
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form-section {
+    &__description {
+      & h2 {
+        font-size: 50px;
+      }
+      & h3 {
+        margin-top: 45px;
+        font-size: 60px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form-section {
+    background: none;
+    &__wrap {
+      height: 50px;
+    }
+    &__description {
+      & h2 {
+        font-size: 30px;
+        color: #2b2b2b;
+      }
+      & h3 {
+        margin-top: 30px;
+        font-size: 55px;
+        color: #2b2b2b;
+      }
+    }
+    &__form {
+      margin-top: -40px;
+      transform: scale(0.7);
     }
   }
 }
