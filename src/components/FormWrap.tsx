@@ -9,9 +9,9 @@ const FormWrap = () => (
         <h2>GAIN MAXIMAL PROFIT WITH</h2>
         <h3>LOW CAPITAL</h3>
       </div>
-      <div className="form-section__form">
+      <div className="form-section__form" id="form">
         <h2>GET HELP & SUPPORT</h2>
-        <h3>PLESE FILL OUT THE FORM BELOW</h3>
+        <h3>PLEASE FILL OUT THE FORM BELOW</h3>
         <form method="POST" action="#">
           <div className="form-input__initials">
             <input className="form-input__name" type="name" name="name" placeholder="First name" maxLength={20} />

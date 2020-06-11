@@ -9,15 +9,15 @@ const Advantages = () => (
       <div className="advantages__card-description">
         <h4>BEST EXECUTION</h4>
         <p>
-          All the Lorem Ipsum generators on the Internet
-          tend to repeat predefined chunks as necessary,
-          making this the first true generator on the Internet.
-          It uses a dictionary of over 200 Latin words,
-          combined with a handful of  model sentence structures,
-          to generate Lorem Ipsum which looks reasonable.
-          The generated Lorem Ipsum is there fore always
-          free from repetition, injected humour,
-          or non-characteristic words etc.
+          The opportunity to earn from anywhere
+          Work as a trader combines great independence and freedom.
+          The profession of a trader does not require him
+          to work anywhere in the office.
+          A true professional does not depend on a specific place;
+          he can work calmly from any corner of the world where there
+          is access to the Internet. Imagine a work day on the ocean!
+          Working hours, a trader can also choose and trade not the
+          entire trading session, but any of its periods.
         </p>
       </div>
     </div>
@@ -26,15 +26,16 @@ const Advantages = () => (
       <div className="advantages__card-description">
         <h4>QUALITY OF LIQUIDITY</h4>
         <p>
-          All the Lorem Ipsum generators on the Internet
-          tend to repeat predefined chunks as necessary,
-          making this the first true generator on the Internet.
-          It uses a dictionary of over 200 Latin words,
-          combined with a handful of  model sentence structures,
-          to generate Lorem Ipsum which looks reasonable.
-          The generated Lorem Ipsum is there fore always
-          free from repetition, injected humour,
-          or non-characteristic words etc.
+          The Prestige and Authority of being a trader
+          The advantage of working as a trader is also the lack of a
+          boss - no one is above the soul, does not control
+          and does not require anything. The entire workflow,
+          trading plan and decisions are made and organized by
+          the trader independently. The owner of this wonderful
+          profession needs to be purposeful, stress-resistant,
+          responsible, organized and independent person.
+          All these qualities will make it possible to receive
+          the desired income from trading and become the best among the best traders.
         </p>
       </div>
     </div>

@@ -4,45 +4,25 @@ import './Terspective.scss';
 
 const Terspective = () => (
   <section className="terspective">
-    <h2>EXPAND YOUR TERSPECTIVE</h2>
-    <h3>LOREM IPSUM IS SIMPLY DUMMY TEXT OF THE PRINTING</h3>
+    <h2>That's why beginners Choose us</h2>
     <div className="terspective__cards">
       <div className="terspective__card">
         <img src="./img/financing.svg" alt="financing" />
         <h3>
-          MAKE SMARTER
-          <br />
-          TRADING DECISION
+          Get your risk-free, no obligation trial account with 100000$ worth simulation funding and experience the benefits of leveraged trading with the world’s known company
         </h3>
-        <p>
-          Lorem ipsum is simply dummy text of
-          the printing and typesetting
-        </p>
       </div>
       <div className="terspective__card">
         <img src="./img/computing.svg" alt="computing" />
         <h3>
-          SPOT TRENDS QUICKLY
-          <br />
-          {' '}
-          ON YOUR CHARTS
+          Experience support from the world’s best traders, delivered as daily trading signals right to your mail-box or messenger.
         </h3>
-        <p>
-          Lorem ipsum is simply dummy text of
-          the printing and typesetting
-        </p>
       </div>
       <div className="terspective__card">
         <img src="./img/average.svg" alt="terspective" />
         <h3>
-          INTEGRATES WITH STRATEGIES
-          <br />
-          YOU ALREADY USE
+          The simplest dummy-friendly interface allows to quickly navigate through the platform and start earning immediately.
         </h3>
-        <p>
-          Lorem ipsum is simply dummy text of
-          the printing and typesetting
-        </p>
       </div>
     </div>
   </section>
