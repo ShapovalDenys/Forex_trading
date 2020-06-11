@@ -1,0 +1,28 @@
+.header {
+  height: 105px;
+  background-color: #151e25;
+  &__article {
+    margin-left: 328px;
+    width: 380px;
+    height: 105px;
+    background-color: #0c53c5;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    & h1 {
+      color: white;
+      font-size: 50px;
+      font-family: "Bebas Neue", cursive;
+      letter-spacing: 5px;
+      margin-top: 5px;
+    }
+    & h2 {
+      color: white;
+      font-size: 20px;
+      font-family: "Segoe UI", sans-serif;
+      text-transform: uppercase;
+    }
+  }
+}

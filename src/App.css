@@ -1,0 +1,7 @@
+@import "./css-reset.scss";
+@import "./fonts.scss";
+
+.App {
+  margin: 0 auto;
+  max-width: 1920px;
+}

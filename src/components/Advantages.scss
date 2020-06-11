@@ -1,0 +1,33 @@
+.advantages {
+  padding: 0 328px;
+  display: flex;
+  flex-direction: column;
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    &-description {
+      max-width: 560px;
+      display: flex;
+      flex-direction: column;
+    }
+    & h4 {
+      margin-top: 130px;
+      font-weight: 400;
+      font-family: "Bebas Neue", cursive;
+      color: #0c53a5;
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+    & p {
+      max-width: 90%;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 20px;
+      color: #2b2b2b;
+      font-weight: 600;
+    }
+  }
+}
+
+.card-2 {
+  flex-direction: row-reverse;
+}

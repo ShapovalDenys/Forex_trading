@@ -1,0 +1,48 @@
+.why-choose-us {
+  background-color: #0c53a5;
+  padding: 100px 328px;
+  text-align: center;
+  & h3 {
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    font-size: 50px;
+  }
+  & h4 {
+    margin-top: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+  }
+  &__cards {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    position: relative;
+    text-align: center;
+    width: 380px;
+    height: 245px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    &-num {
+      position: relative;
+      top: -42px;
+      left: -42px;
+      width: 61px;
+      height: 61px;
+      background-color: #ffcc01;
+      z-index: 1;
+      text-align: center;
+      line-height: 61px;
+      color: white;
+      font-family: "Bebas Neue", cursive;
+      font-size: 50px;
+    }
+  }
+  & p {
+    margin-top: 20px;
+    font-family: "Segoe UI", sans-serif;
+    color: white;
+  }
+}
