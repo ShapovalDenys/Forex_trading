@@ -1,0 +1,81 @@
+.carousel {
+  position: relative;
+  width: 1000px;
+  overflow: hidden;
+  &__block {
+    margin: 40px 0 auto;
+    width: 13400px;
+  }
+  &__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+  }
+  &__buttons {
+    position: relative;
+  }
+  &__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #0c53a5;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+    }
+    & img {
+      margin-top: 7px;
+      margin-left: 2px;
+    }
+    &-prev {
+      position: absolute;
+      top: 70px;
+      right: 530px;
+      & img {
+        transform: rotate(180deg);
+      }
+    }
+    &-next {
+      position: absolute;
+      top: 70px;
+      left: 530px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel {
+    width: 600px;
+    &__button {
+      &-prev {
+        right: 330px;
+      }
+      &-next {
+        left: 330px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .carousel {
+    width: 300px;
+    &__buttons {
+      position: relative;
+      bottom: 50px;
+    }
+    &__button {
+      &-prev {
+        position: relative;
+        right: 30px;
+      }
+      &-next {
+        position: relative;
+        left: 30px;
+      }
+    }
+  }
+}
