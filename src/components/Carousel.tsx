@@ -55,32 +55,51 @@ const Carousel = () => {
 
             <li className="reviews__card">
               <img src="./img/rev1.jpg" alt="testimonials client" />
-              <p>“Everything is simple and clear. I didn’t have to master the platform for a long time to earn the first money!”</p>
-              <h5>Brian Stone</h5>
+              <p>“Everything is simple and clear.
+                I didn’t have to master the platform for
+                a long time to earn the first
+                money!”
+                <span>Brian Stone</span>
+              </p>
             </li>
 
             <li className="reviews__card">
               <img src="./img/rev2.jpeg" alt="testimonials client" />
-              <p>“I learned a lot about financial markets by working with this company. Now I can invest and make money on it.”</p>
-              <h5>Clark Welsh</h5>
+              <p>“I learned a lot about financial
+                markets by working with this company.
+                Now I can invest and make money on it.”
+                <span>Clark Welsh</span>
+                </p>
             </li>
 
             <li className="reviews__card">
               <img src="./img/rev3.png" alt="testimonials client" />
-              <p>“Good customer support. I was pleasantly surprised by their speed of response since on another platform I had to wait for hours.”</p>
-              <h5>Amanda Cooper</h5>
+              <p>“Good customer support.
+                I was pleasantly surprised by their speed
+                of response since on another platform
+                I had to wait for hours.”
+                <span>Amanda Cooper</span>
+                </p>
             </li>
 
             <li className="reviews__card">
               <img src="./img/rev4.jpg" alt="testimonials client" />
-              <p>“I like to communicate with other investors and share experiences. It is always interesting to know what colleagues think.”</p>
-              <h5>Andrew Lijis</h5>
+              <p>“I like to communicate with
+                other investors and share experiences.
+                It is always interesting
+                to know what colleagues think.”
+                <span>Andrew Lijis</span>
+                </p>
             </li>
 
             <li className="reviews__card">
               <img src="./img/rev5.png" alt="testimonials client" />
-              <p>“I don’t know whether it depends on the platform or on my knowledge, but when I came here, I got much more profitable deals!”</p>
-              <h5>Samantha Gilbert</h5>
+              <p>“I don’t know whether it
+                depends on the platform or on
+                my knowledge, but when I came here,
+                I got much more profitable deals!”
+                <span>Samantha Gilbert</span>
+                </p>
             </li>
 
           </ul>
